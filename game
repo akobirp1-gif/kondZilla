@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kondZilla Game Club</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0f0f0f;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 3px solid #ff4747;
+    }
+    header h1 {
+      color: #ff4747;
+      font-size: 2em;
+    }
+    nav {
+      background-color: #141414;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ff4747;
+    }
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+    .gallery img {
+      width: 250px;
+      margin: 10px;
+      border-radius: 10px;
+      border: 2px solid #ff4747;
+    }
+    footer {
+      text-align: center;
+      background-color: #1a1a1a;
+      padding: 15px;
+      margin-top: 20px;
+      border-top: 2px solid #ff4747;
+    }
+    button {
+      background-color: #ff4747;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ff3030;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>kondZilla Game Club 🎮</h1>
+    <p>CS2 o‘yinchilar uchun markaz</p>
+  </header>
+
+  <nav>
+    <a href="#bosh">Bosh sahifa</a>
+    <a href="#royxat">Ro‘yxatdan o‘tish</a>
+    <a href="#aloqa">Aloqa</a>
+    <a href="#instagram">Instagram</a>
+  </nav>
+
+  <section id="bosh">
+    <h2>CS2 Pichoqlar Galereyasi 🔪</h2>
+    <div class="gallery">
+      <img src="https://static.wikia.nocookie.net/cswikia/images/1/1a/CSGO_Karambit.png" alt="Karambit">
+      <img src="https://static.wikia.nocookie.net/cswikia/images/8/8f/CSGO_Bayonet.png" alt="Bayonet">
+      <img src="https://static.wikia.nocookie.net/cswikia/images/0/0a/CSGO_M9_Bayonet.png" alt="M9 Bayonet">
+    </div>
+  </section>
+
+  <section id="royxat">
+    <h2>Ro‘yxatdan o‘tish 🧾</h2>
+    <p>Hisob yaratish uchun bizga murojaat qiling!</p>
+    <button onclick="alert('Ro‘yxatdan o‘tish tez orada ishga tushadi!')">Boshlash</button>
+  </section>
+
+  <section id="aloqa">
+    <h2>Aloqa ☎️</h2>
+    <p>📍 Termiz, O‘zbekiston</p>
+    <p>📞 +998 91 191 1911</p>
+  </section>
+
+  <section id="instagram">
+    <h2>Instagram 📸</h2>
+    <p>Bizni kuzating: 
+      <a href="https://instagram.com/" target="_blank" style="color:#ff4747;">Instagram sahifamiz</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 kondZilla Game Club | Barcha huquqlar himoyalangan.</p>
+  </footer>
+
+</body>
+</html>
